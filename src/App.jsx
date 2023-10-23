@@ -9,7 +9,7 @@ export default function App() {
     <>
       <div className={styles.container}>
         <Cabecalho />
-          <Outlet />
+          <Outlet /
         <Rodape/>
       </div>
     </>
