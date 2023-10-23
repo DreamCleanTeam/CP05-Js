@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import styles from "./Produtos.module.css"
 import {AiFillEdit as Editar} from "react-icons/ai"
 import {AiFillDelete as Excluir} from "react-icons/ai"
 import ModalAction from "../components/ModalAction/ModalAction";
+import "./Produtos.scss"
 
 export default function Produtos() {
   document.title = "Lista de Produtos";
@@ -31,7 +31,7 @@ export default function Produtos() {
       <button onClick={()=> setOpen(true)}>OPEN-MODAL</button>
 
       <div>
-        <table className={styles.tblEstilo}>
+        <table className="tblEstilo">
           <thead>
             <tr>
               <th>ID</th>

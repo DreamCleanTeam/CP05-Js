@@ -1,6 +1,12 @@
 {
   "produtos": [
     {
+      "id": 1,
+      "nome": "Teclado2",
+      "desc": "Teclado 105 Teclas Mecânico.",
+      "preco": "185"
+    },
+    {
       "id": 2,
       "nome": "Monitor",
       "desc": "32' 120Hz Tela Curva.",
@@ -23,42 +29,6 @@
       "nome": "Head Set",
       "desc": "Head Set Gamer 8D.",
       "preco": 800
-    },
-    {
-      "id": 6,
-      "nome": "mousepad",
-      "descricao": "mousepad bala",
-      "preco": "125"
-    },
-    {
-      "id": 7,
-      "nome": "Siiiu",
-      "descricao": "cr7",
-      "preco": "777"
-    },
-    {
-      "id": 8,
-      "nome": "Mousepad",
-      "desc": "mousepad2",
-      "preco": "123"
-    },
-    {
-      "id": 9,
-      "nome": "aaaaa",
-      "desc": "bbbbbb",
-      "preco": "12345"
-    },
-    {
-      "id": 10,
-      "nome": "ccccccccc",
-      "desc": "dddddddd",
-      "preco": "777"
-    },
-    {
-      "id": 11,
-      "nome": "aaaaaa",
-      "desc": "bbbbbbbbb",
-      "preco": "123"
     }
   ]
 }
