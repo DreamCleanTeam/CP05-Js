@@ -9,7 +9,13 @@ export default function Produtos() {
   document.title = "Lista de Produtos";
 
   const [listaProdutosLocal, setListaProdutosLocal] = useState([{}]);
+const recarga = ()=>{
+  fetch("http://localhost:5000/produtos") //faz o request
+  .then((response)=> response.json()) //recebe resposta e transforma em json
+  .then((response)=> setListaProdutosLocal(response)) //envia a resposta para a ListaProdutosLocal
+  .catch(error =>console.log(error))
 
+}
   
 
   //Estrutura que recebe a lista de produtos externa e repassa para uma lista local.
@@ -26,7 +32,7 @@ export default function Produtos() {
     <div>
       <h1>Lista de Produtos</h1>
 
-      <ModalAction open={open} setClose={setOpen}/>
+      <ModalAction open={open} setClose={setOpen} reacarga={recarga}/>
 
       <button onClick={()=> setOpen(true)}>OPEN-MODAL</button>
 

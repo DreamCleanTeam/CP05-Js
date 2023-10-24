@@ -29,6 +29,24 @@
       "nome": "Head Set",
       "desc": "Head Set Gamer 8D.",
       "preco": 800
+    },
+    {
+      "id": 7,
+      "nome": "Neymar",
+      "desc": "Al'MOSSO",
+      "preco": "170000000"
+    },
+    {
+      "id": 8,
+      "nome": "queijo",
+      "desc": "cheddar",
+      "preco": "60"
+    },
+    {
+      "id": 10,
+      "nome": "asdasd",
+      "desc": "asddasdas",
+      "preco": "011111111"
     }
   ]
 }
